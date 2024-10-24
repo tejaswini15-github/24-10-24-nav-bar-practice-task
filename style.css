@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+} 
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 14px;
+   background-color: #ccc;
+   font-size: 1.8rem;
+}
+nav {
+    display: contents;
+}   
+span {
+    font-size: 2rem;
+}
+.icon{
+    font-size: 2rem;
+    display: none;
+} 
+@media screen and (width < 550px){
+    nav{
+      display: none;
+   }
+   .icon{
+    display: inline-block;
+ }
+}
